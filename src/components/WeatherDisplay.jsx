@@ -67,9 +67,8 @@ function WeatherDisplay( {data} ) {
               </div>
               <div className="inline-block px-4 py-2 bg-white/30 rounded-full">
               <span className={` flex gap-1 text-sm font-medium ${primaryColor}`}>
-                    🌦️ Rainy City Weather
+              🌦️ Rainy City Weather
               </span>
-
               </div>
             </div>
             </div>
@@ -94,7 +93,7 @@ function WeatherDisplay( {data} ) {
              </div>
             </div>
                <div className={`mt-3 text-sm ${secondaryColor}`}>
-                Real feel:{feelslike}°C
+                Real feel: {feelslike} °C
                </div>
               </div>
 
