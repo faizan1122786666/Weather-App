@@ -33,7 +33,7 @@ function App() {
       {/* Heading */}
       <div className="text-center mb-6 sm:mb-8">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl text-sky-200 font-extrabold">
-          Weather Forecast
+          Weather App
         </h1>
         <p className="mt-2 sm:mt-3 text-sm sm:text-lg text-sky-100">
           Get real-time weather updates for any city
