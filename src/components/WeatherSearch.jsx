@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import axios from 'axios';
 
-const key = "905c12e1b4cb4303ee37a027b511351a";
-const url = "https://api.openweathermap.org/data/2.5/weather"
+const key = import.meta.env.VITE_Weather_API_KEY;
+const url = import.meta.env.VITE_Weather_API_URL;
 
 const WeatherSearch = ({onWeatherData,onLoading,onError}) => {
     const [city,setCity] = useState('');
